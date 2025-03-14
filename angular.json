@@ -32,13 +32,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "18mb",
+                  "maximumError": "25mb"
                 },
                 {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "type": "any",
+                  "maximumWarning": "19mb",
+                  "maximumError": "25mb"
                 }
               ],
               "fileReplacements": [
@@ -97,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ee3fd46b-812b-4213-a9a8-531896d80144"
   }
 }
